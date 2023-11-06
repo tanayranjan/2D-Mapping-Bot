@@ -4,7 +4,6 @@
 
 To create a bot which maps a 2D top view of the floor, plotting all the obstacles and boundaries of the area.
 
----
 
 ## Components List
 
@@ -22,7 +21,6 @@ To create a bot which maps a 2D top view of the floor, plotting all the obstacle
 - Zip Ties
 - Chassis (Metal Body, Wheels)
 
----
 
 ## Working
 The 2D mapping bot has been designed and programmed to be controlled by the user in terms of locomotion. The working can be classified into two major processes: Locomotion and Scanning.
@@ -33,7 +31,6 @@ The HC05 Bluetooth module is utilised for communication purpose to move the bot 
 ### Scanning
 Scanning is done by the HCSR04 ultrasonic sensor mounted upon an SG90 servo motor which rotates from 0 to 180 degrees back and forth. Scanning is done by sending pulses of ultrasonic waves for each angular position of the sensor. Scanning goes on continuously as long as the bot is switched on. It comes to a halt only when the bot receives a command to perform a particular locomotive action. As soon as that action is completed, scanning resumes.
 
----
 
 ## Results
 
